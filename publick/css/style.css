@@ -4,7 +4,10 @@ body {
 
 }
 
-
+.Place {
+  padding: 10px;
+  margin: 20px;
+}
 
 h1 , h2 , p{
     font-family: 'Libre Baskerville', serif;
@@ -42,7 +45,7 @@ p {
 
 .quest {
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .pFooter {
@@ -69,7 +72,7 @@ width: 70%;
   margin: auto;
   
   height:60ch;
-  width: 100%;
+  width: 90%;
   }
 
 
@@ -209,8 +212,8 @@ font-size: 2.5rem;
 padding: 10px;
     margin: auto;
 
-    width: 40%;
-    height: 200px;
+    width: 45%;
+    height: 320px;
 }
 
 .swiper3 {
@@ -295,12 +298,12 @@ border: 0;
 
 @media screen and (max-width: 990px) {
   .secondS {
-    width: 70%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
   } 
 
   .quest {
-    font-size: 2.5rem;
+    font-size: 3rem;
   } 
 
   h1 {
@@ -395,11 +398,44 @@ padding: 0;
   width: 150px;
 }
 
+.cenovnik {
+  padding: 0;
+
+  margin: auto;
+  width: 80%;
+}
+
+.cenovnikIMG {
+
+  width: 45%;
+
+  object-position: center;
+}
+
+
 
 @media screen and (max-width: 990px) {
   .typeOfWork {
   font-size: 5rem;
   }
+
+
+
+  .cenovnikIMG {
+    height: 100%;
+    width: 90%;
+  }
+
+  .cenovnik {
+margin: 0;
+
+width: 100%;
+  }
+
+
+.quest {
+  font-size: 2rem;
+}
 
   .Table1 {
 
@@ -408,8 +444,14 @@ padding: 0;
   
   }
 
+
 .infoTable {
   font-size: 2.5rem;
+}
+
+.icon {
+  border-radius: 50%;
+  zoom: 1.3;
 }
 
   }
